@@ -47,9 +47,16 @@ class CustomDropdownFormField extends StatelessWidget {
             borderSide: BorderSide.none,
           ),
           contentPadding: EdgeInsets.all(16),
+
         ),
         value: value,
         onChanged: onChanged,
+        validator: (value) {
+          if (value == null) {
+            return 'Please select an option';
+          }
+          return null;
+        },
         items: items.map((String item) {
           return DropdownMenuItem(
             child: Text(item),
