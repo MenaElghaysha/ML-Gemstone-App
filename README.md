@@ -25,3 +25,11 @@ Expected Price: $1685.95
 
 # Contributing
 Contributions are welcome! Please submit a pull request or open an issue for any suggestions or improvements.
+
+
+
+
+![IMG-20240512-WA0152](https://github.com/MenaElghaysha/ML-Gemstone-App/assets/90992169/8e701adb-8775-467c-bf9f-9fb2efb1adc0)
+![IMG-20240512-WA0151](https://github.com/MenaElghaysha/ML-Gemstone-App/assets/90992169/7ef3c692-ba09-4086-85e3-f660119a42a8)
+![IMG-20240512-WA0150](https://github.com/MenaElghaysha/ML-Gemstone-App/assets/90992169/3a37311e-3206-4d5c-8a08-80f1d03034ca)
+![IMG-20240512-WA0149](https://github.com/MenaElghaysha/ML-Gemstone-App/assets/90992169/96184c0d-930c-49ef-8923-7226b16dd760)
