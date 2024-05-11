@@ -1,15 +1,15 @@
-Diamond Price Prediction
-Description
+# Diamond Price Prediction
+# Description
 This Flutter application predicts the price of a diamond based on its characteristics, such as carat, cut, color, clarity, depth, table, and dimensions.
 
-Installation
+# Installation
 Clone the repository.
 Run flutter pub get to install dependencies.
 Usage
 Enter the diamond characteristics.
 Press the "Get price" button to predict the price.
 View the predicted price in an alert dialog.
-Example
+# Example
 Enter the following diamond characteristics:
 
 Carat: 0.5
@@ -23,5 +23,5 @@ Y: 5.07
 Z: 3.10
 Expected Price: $1685.95
 
-Contributing
+# Contributing
 Contributions are welcome! Please submit a pull request or open an issue for any suggestions or improvements.
