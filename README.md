@@ -27,10 +27,10 @@ Expected Price: $1685.95
 Contributions are welcome! Please submit a pull request or open an issue for any suggestions or improvements.
 
 
+![Screenshot_20240514_023723](https://github.com/MenaElghaysha/ML-Gemstone-App/assets/90992169/9f59ff03-f711-4c99-8224-76b593f60800)
 
+![Screenshot_20240514_023730](https://github.com/MenaElghaysha/ML-Gemstone-App/assets/90992169/1eb878ef-31a6-4d5d-9d7f-78894f636059)
 
-![IMG-20240512-WA0151](https://github.com/MenaElghaysha/ML-Gemstone-App/assets/90992169/7ef3c692-ba09-4086-85e3-f660119a42a8)
-![IMG-20240512-WA0149](https://github.com/MenaElghaysha/ML-Gemstone-App/assets/90992169/96184c0d-930c-49ef-8923-7226b16dd760)
-![IMG-20240512-WA0150](https://github.com/MenaElghaysha/ML-Gemstone-App/assets/90992169/3a37311e-3206-4d5c-8a08-80f1d03034ca)
-![IMG-20240512-WA0152](https://github.com/MenaElghaysha/ML-Gemstone-App/assets/90992169/8e701adb-8775-467c-bf9f-9fb2efb1adc0)
+![Screenshot_20240514_023733](https://github.com/MenaElghaysha/ML-Gemstone-App/assets/90992169/2f3afa16-e117-4f02-9cdd-c4ea5ebae01d)
 
+![Screenshot_20240514_023824](https://github.com/MenaElghaysha/ML-Gemstone-App/assets/90992169/e14218f2-083c-4b80-aa2f-bc71c64de382)
