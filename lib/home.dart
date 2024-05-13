@@ -3,7 +3,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:gemstone/result_page.dart';
 import 'custome_text_form_field.dart';
 import 'custom_dropdown_button_form_field.dart';
-import 'package:rflutter_alert/rflutter_alert.dart';
 import 'model/api_services.dart';
 
 class Home extends StatefulWidget {
@@ -120,7 +119,7 @@ class _HomeState extends State<Home> {
 
                     ),
                     child: Padding(
-                      padding: EdgeInsets.all(12.0.w),
+                      padding: EdgeInsets.only(top: 12.w,right: 12.w,left: 12.w,bottom: MediaQuery.of(context).viewInsets.bottom),
                       child: Form(
                         key: formKey,
                         child: Column(
@@ -295,6 +294,17 @@ class _HomeState extends State<Home> {
                                       color: Colors.white,
                                       fontSize: 25,
                                       fontWeight: FontWeight.w500)),
+                            ),
+
+                            SizedBox(height: 20.h,),
+
+
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Image.asset("assets/images/cp.png",height: 20.h,width: 20.w),
+                                Text(" Copyrights By Hogwarts",style: TextStyle(fontSize: 12.sp),textAlign: TextAlign.center,),
+                              ],
                             ),
 
 
