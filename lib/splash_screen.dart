@@ -17,7 +17,7 @@ class SplashScreen extends StatelessWidget {
           // color: Colors.black.withOpacity(0.3), // Set the background color with opacity
         ),
         child: Padding(
-          padding: EdgeInsets.only(left: 24.0.w, top: 50.w,right: 24.w),
+          padding: EdgeInsets.only(left: 24.0.w, top: 50.w,right: 24.w,bottom: 20.h),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -77,34 +77,40 @@ class SplashScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(height: MediaQuery.of(context).size.height*.28.h,),
+              // SizedBox(height: MediaQuery.of(context).size.height*.2,),
 
-              ElevatedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Home()),
-                  );
-
-                },
-                style: ButtonStyle(
-                  shape: MaterialStateProperty.all(
-                      RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(15.r))),
-                  backgroundColor:
-                  MaterialStateProperty.all(Colors.deepOrangeAccent),
-                  fixedSize: MaterialStateProperty.all(
-                      Size(MediaQuery.of(context).size.width, 50.h)),
-                ),
-                child: Text(
-                  "Get Started",
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 20.sp,
-                    fontWeight: FontWeight.w600,
+              Expanded(
+                child: Align(
+                  alignment: FractionalOffset.bottomCenter,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => Home()),
+                      );
+                  
+                    },
+                    style: ButtonStyle(
+                      shape: MaterialStateProperty.all(
+                          RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(15.r))),
+                      backgroundColor:
+                      MaterialStateProperty.all(Colors.deepOrangeAccent),
+                      fixedSize: MaterialStateProperty.all(
+                          Size(MediaQuery.of(context).size.width, 50.h)),
+                    ),
+                    child: Text(
+                      "Get Started",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20.sp,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                   ),
                 ),
               ),
+
             ],
           ),
         ),
