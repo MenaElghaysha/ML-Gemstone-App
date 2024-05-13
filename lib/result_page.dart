@@ -1,5 +1,3 @@
-// result_page.dart
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -17,7 +15,7 @@ class ResultPage extends StatelessWidget {
       body: Container(
         height:double.infinity ,
         width: double.infinity,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
             gradient: LinearGradient(
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
@@ -83,6 +81,21 @@ class ResultPage extends StatelessWidget {
                     child:Image.asset("assets/images/12.png",fit: BoxFit.contain,)
                   ),
                 ),
+
+                SizedBox(height: 20.h,),
+
+                Expanded(
+                  child: Align(
+                    alignment: FractionalOffset.bottomCenter,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset("assets/images/cp.png",height: 20.h,width: 20.w),
+                        Text(" Copyrights By Hogwarts",style: TextStyle(fontSize: 12.sp),textAlign: TextAlign.center,),
+                      ],
+                    ),
+                  ),
+                )
               ],
             ),
           ),
