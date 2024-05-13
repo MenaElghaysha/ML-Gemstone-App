@@ -28,6 +28,8 @@ class CustomTextFormField extends StatelessWidget {
         ],
       ),
       child: TextFormField(
+        scrollPadding: EdgeInsets.only(
+            bottom: MediaQuery.of(context).viewInsets.bottom),
         controller: controller,
         keyboardType: TextInputType.text,
         decoration: InputDecoration(
